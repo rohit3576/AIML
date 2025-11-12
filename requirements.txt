@@ -1,0 +1,15 @@
+# ---------- Core ----------
+streamlit==1.40.0
+numpy==1.26.4
+pandas==2.2.3
+opencv-python-headless==4.10.0.84
+
+# ---------- ML / CV ----------
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics==8.3.37
+mediapipe==0.10.14
+fer==22.5.1
+
+# ---------- Utilities ----------
+requests>=2.31.0

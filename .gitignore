@@ -1,0 +1,55 @@
+# ----------------------------
+# Python cache / environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+.DS_Store
+*.egg-info/
+
+# ----------------------------
+# Streamlit config/cache
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ----------------------------
+# Large files (models, data, media)
+*.pt
+*.pth
+*.onnx
+*.weights
+*.h5
+*.ckpt
+*.zip
+*.tar
+*.gz
+*.rar
+
+# ----------------------------
+# Media (videos/images)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# ----------------------------
+# Logs / Temp / Outputs
+logs/
+temp_*
+tmp/
+__results__/
+output/
+checkpoints/
+runs/
+cache/
